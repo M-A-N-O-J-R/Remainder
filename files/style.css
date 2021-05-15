@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:#eeeeee;
+}
+.o-cont
+{
+    max-width: 1500px;
+    background-color:rgb(41, 39, 39);
+    margin:60px auto;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px rgb(41, 39, 39);
+}
+.col
+{
+    color:rgb(49, 48, 48);
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin:30px;
+    background-color:#eeeeee;
+    border-radius: 8px;
+    font-size:22px;
+    transition:all  1.2s ease 0.2s;
+    border-radius: 10px;
+    
+}
+
+.task,.deadline
+{
+    font-size:30px;
+    letter-spacing:1.3px;
+    font-family: 'Oswald', sans-serif;
+    transition:all 0.5s ease 0s;
+}
+.task
+{
+    font-family: 'Satisfy', cursive;
+    font-size:40px;
+}
+.task:hover
+{
+  color:rgb(228, 85, 2);  
+  text-decoration: line-through;
+}
+.title
+{
+    text-align: center;
+    margin:80px auto;
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    letter-spacing:1.5px;
+}
+#m-btn
+{
+    border: 1.2px solid rgb(32, 31, 31);
+
+}
+footer
+{
+    color: rgb(58, 54, 54);
+    padding:20px;
+   
+    margin-top:40px;
+   margin-left:40%;
+}
+.form-groups
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self:center;
+}
+    
+
+.form-contro
+{
+    height: 500px;
+    background-color: #eeeeee;
+    font-size: 25px;
+}    
+
+.col-n
+{
+    margin:5px;
+}
+.o-cont-n
+{
+    max-width: 700px;
+    
+}
+.badge
+{
+   width:100px;
+   height: 30px;
+}
+#task,#deadline,#info
+{
+    margin-left: 5px;
+    font-size: 18px;
+
+}
+#info
+{
+    height: 60px;
+    font-size: 18px;
+}
+#dbtn
+{
+    width:70px;
+    margin:0px 100px;
+}
+.titles
+{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    letter-spacing:1.5px;
+}
+#abtn
+{
+    margin-left:50%;
+
+}
+@media (max-width:992px)
+{
+    .task,.deadline
+    {
+        font-size:18px;
+        
+    }
+    .task
+    {
+       
+        font-size:20px;
+    }
+    .col
+    {
+        font-size:18px;
+        margin:5px;
+    }
+    .deadline-div
+    {
+        margin-left: 50px;
+
+    }
+    
+}
+@media(max-width:450px){
+    #m-btn
+{
+    width:120px;
+    font-size: 12px;
+     
+}
+
+.task,.deadline{
+    font-size:0.7em;
+}
+
+}
